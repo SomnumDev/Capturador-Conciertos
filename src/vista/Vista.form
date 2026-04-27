@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vista.Vista">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="545" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e005f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Artista:"/>
+        </properties>
+      </component>
+      <vspacer id="56cb0">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8f5f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lugar:"/>
+        </properties>
+      </component>
+      <component id="879e6" class="javax.swing.JLabel" binding="FechaEvento">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fecha del Evento:"/>
+        </properties>
+      </component>
+      <component id="443f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Capacidad:"/>
+        </properties>
+      </component>
+      <component id="4b5e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Entradas Vendidas:"/>
+        </properties>
+      </component>
+      <component id="b5c49" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio por entrada:"/>
+        </properties>
+      </component>
+      <component id="2516c" class="javax.swing.JTextField" binding="txtArtista">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d338a" class="javax.swing.JTextField" binding="txtLugar">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="6d9a5" binding="panelFechas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e0a1b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Año:l"/>
+            </properties>
+          </component>
+          <component id="79d9f" class="javax.swing.JComboBox" binding="cbanio">
+            <constraints/>
+            <properties>
+              <toolTipText value="AÑO"/>
+            </properties>
+          </component>
+          <component id="a004e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Mes:"/>
+            </properties>
+          </component>
+          <component id="a991e" class="javax.swing.JComboBox" binding="cbMes">
+            <constraints/>
+            <properties>
+              <toolTipText value="MES"/>
+            </properties>
+          </component>
+          <component id="51e12" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Día"/>
+            </properties>
+          </component>
+          <component id="99d87" class="javax.swing.JComboBox" binding="cbDia">
+            <constraints/>
+            <properties>
+              <toolTipText value="DÍA"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="26831" class="javax.swing.JTextField" binding="txtCap">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="35c31" class="javax.swing.JTextField" binding="txtVendidas">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a4ac1" class="javax.swing.JTextField" binding="txtPrecioUnit">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="1451c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f27b6" class="javax.swing.JButton" binding="btnAlta">
+            <constraints/>
+            <properties>
+              <text value="ALTA"/>
+            </properties>
+          </component>
+          <component id="9c487" class="javax.swing.JButton" binding="btnBaja">
+            <constraints/>
+            <properties>
+              <text value="BAJA"/>
+            </properties>
+          </component>
+          <component id="c26f" class="javax.swing.JButton" binding="btnBuscar">
+            <constraints/>
+            <properties>
+              <text value="BUSCAR"/>
+            </properties>
+          </component>
+          <component id="bcff8" class="javax.swing.JButton" binding="btnMod">
+            <constraints/>
+            <properties>
+              <text value="MODIFICAR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="edf26">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="80c91" class="javax.swing.JTable" binding="tbEventos">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
